@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>uryan webb</title>
+
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- File CSS Eksternal -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Uryan</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon bg-light rounded"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Biodata</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Portofolio</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HEADER -->
+<section class="section-header bg-white">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-md-6">
+        <h2 class="mb-3">Halo! Saya Uryan 😊</h2>
+        <p class="mb-4">Saya seorang Web Developer yang suka membangun situs web modern, estetik dan responsif.</p>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Hubungi Saya</button>
+      </div>
+      <div class="col-md-6">
+        <img src="https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_1280.jpg" alt="Pemandangan" class="img-fluid rounded shadow">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BIODATA -->
+<section class="py-5">
+  <div class="container">
+    <h3 class="text-center mb-4">Tentang Saya</h3>
+    <div class="row g-4">
+      <div class="col-sm-6 col-md-4">
+        <div class="biodata-box"><b>Nama</b><br>Uryan Nugroho</div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="biodata-box"><b>Pendidikan</b><br>S1 Ilmu Komputer</div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="biodata-box"><b>Pekerjaan</b><br>Web Developer</div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="biodata-box"><b>Kontak</b><br>0821xxxxxxx</div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="biodata-box"><b>Hobi</b><br>Membaca</div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="biodata-box"><b>Alamat</b><br>Balikpapan</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="py-5 bg-white">
+  <div class="container">
+    <h3 class="text-center mb-5">Portofolio Saya</h3>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://cdn.pixabay.com/photo/2012/05/29/00/43/car-49278_1280.jpg" alt="Proyek Mobil">
+          <div class="card-body">
+            <h5 class="card-title">Showroom Mobil</h5>
+            <p class="card-text">Website elegan untuk bisnis jual beli mobil.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://cdn.pixabay.com/photo/2016/11/18/21/30/bike-1836962_1280.jpg" alt="Proyek Motor">
+          <div class="card-body">
+            <h5 class="card-title">Komunitas Motor</h5>
+            <p class="card-text">Landing page untuk komunitas biker Indonesia.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_1280.jpg" alt="Proyek Kucing">
+          <div class="card-body">
+            <h5 class="card-title">Pet Blog</h5>
+            <p class="card-text">Blog informatif untuk pecinta hewan peliharaan.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MODAL -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Halo!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+      </div>
+      <div class="modal-body">
+        Terima kasih telah mengunjungi portofolio saya! Silakan hubungi saya untuk kerja sama atau pertanyaan.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Uryan Nugroho. Dibuat dengan ❤ dan Bootstrap</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
